@@ -11,9 +11,6 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "title": {
-      "type": "string"
-    },
     "discription": {
       "type": "richtext"
     },
@@ -28,9 +25,8 @@
       "plugin": "upload",
       "required": false
     },
-    "catigory": {
-      "model": "catigory",
-      "via": "photoarchivs"
+    "date": {
+      "type": "date"
     }
   }
 }

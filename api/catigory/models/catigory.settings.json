@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "catigories",
   "info": {
-    "name": "catigory"
+    "name": "catigory",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -10,10 +11,13 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "title": {
-      "type": "string"
+    "date": {
+      "type": "date"
     },
-    "image": {
+    "discriprion": {
+      "type": "richtext"
+    },
+    "photo": {
       "collection": "file",
       "via": "related",
       "allowedTypes": [
@@ -26,10 +30,6 @@
     },
     "catigory": {
       "model": "catigory"
-    },
-    "photoarchivs": {
-      "via": "catigory",
-      "collection": "photoarchiv"
     }
   }
 }
