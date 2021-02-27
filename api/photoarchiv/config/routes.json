@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/photoarchivs",
+      "handler": "photoarchiv.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/photoarchivs/count",
+      "handler": "photoarchiv.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/photoarchivs/:id",
+      "handler": "photoarchiv.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/photoarchivs",
+      "handler": "photoarchiv.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/photoarchivs/:id",
+      "handler": "photoarchiv.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/photoarchivs/:id",
+      "handler": "photoarchiv.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

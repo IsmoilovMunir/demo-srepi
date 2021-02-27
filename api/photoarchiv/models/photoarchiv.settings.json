@@ -1,0 +1,13 @@
+{
+  "kind": "collectionType",
+  "collectionName": "photoarchivs",
+  "info": {
+    "name": "photoarchiv"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {}
+}
