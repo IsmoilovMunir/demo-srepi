@@ -2,12 +2,35 @@
   "kind": "collectionType",
   "collectionName": "photoarchivs",
   "info": {
-    "name": "photoarchiv"
+    "name": "photoarchiv",
+    "description": ""
   },
   "options": {
     "increments": true,
     "timestamps": true,
     "draftAndPublish": true
   },
-  "attributes": {}
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "discription": {
+      "type": "richtext"
+    },
+    "photo": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "catigory": {
+      "model": "catigory",
+      "via": "photoarchivs"
+    }
+  }
 }
