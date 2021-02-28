@@ -1,0 +1,8 @@
+{
+    "provider":"cloudinary",
+    "providerOptions":{
+        "cloud_name":"mertun",
+        "api_key":"213429918258791",
+        "api_secret":"uzEBqKFD292KVAT_wLleSr3LI7w"
+    }
+}
