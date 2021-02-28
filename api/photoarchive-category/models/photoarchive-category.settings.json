@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "catigories",
+  "collectionName": "photoarchive_categories",
   "info": {
-    "name": "catigory",
+    "name": "category",
     "description": ""
   },
   "options": {
@@ -11,25 +11,21 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "date": {
-      "type": "date"
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": true
     },
-    "discriprion": {
-      "type": "richtext"
-    },
-    "photo": {
+    "image": {
       "collection": "file",
       "via": "related",
       "allowedTypes": [
-        "images",
         "files",
+        "images",
         "videos"
       ],
       "plugin": "upload",
-      "required": false
-    },
-    "catigory": {
-      "model": "catigory"
+      "required": true
     }
   }
 }

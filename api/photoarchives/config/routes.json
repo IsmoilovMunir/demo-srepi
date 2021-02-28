@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/photoarchivs",
-      "handler": "photoarchiv.find",
+      "path": "/photoarchives",
+      "handler": "photoarchives.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/photoarchivs/count",
-      "handler": "photoarchiv.count",
+      "path": "/photoarchives/count",
+      "handler": "photoarchives.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/photoarchivs/:id",
-      "handler": "photoarchiv.findOne",
+      "path": "/photoarchives/:id",
+      "handler": "photoarchives.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/photoarchivs",
-      "handler": "photoarchiv.create",
+      "path": "/photoarchives",
+      "handler": "photoarchives.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/photoarchivs/:id",
-      "handler": "photoarchiv.update",
+      "path": "/photoarchives/:id",
+      "handler": "photoarchives.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/photoarchivs/:id",
-      "handler": "photoarchiv.delete",
+      "path": "/photoarchives/:id",
+      "handler": "photoarchives.delete",
       "config": {
         "policies": []
       }
