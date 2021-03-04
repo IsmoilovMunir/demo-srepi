@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/videogalleries",
+      "handler": "videogallery.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/videogalleries/count",
+      "handler": "videogallery.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/videogalleries/:id",
+      "handler": "videogallery.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/videogalleries",
+      "handler": "videogallery.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/videogalleries/:id",
+      "handler": "videogallery.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/videogalleries/:id",
+      "handler": "videogallery.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "photoarchives",
+  "collectionName": "videogalleries",
   "info": {
-    "name": "photoarchives",
-    "description": ""
+    "name": "videogallery"
   },
   "options": {
     "increments": true,
@@ -12,11 +11,9 @@
   },
   "attributes": {
     "title": {
-      "type": "string",
-      "required": true,
-      "unique": true
+      "type": "string"
     },
-    "description": {
+    "discription": {
       "type": "richtext",
       "required": true
     },
@@ -24,21 +21,12 @@
       "collection": "file",
       "via": "related",
       "allowedTypes": [
-        "images",
         "files",
+        "images",
         "videos"
       ],
       "plugin": "upload",
       "required": true
-    },
-    "categories": {
-      "collection": "category",
-      "via": "photoarchive"
-    },
-    "catigores": {
-      "via": "photoarchives",
-      "collection": "catigore",
-      "dominant": true
     }
   }
 }

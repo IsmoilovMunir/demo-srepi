@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "catigores",
+  "info": {
+    "name": "catigore",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "danceschool": {
+      "model": "danceschool",
+      "via": "catigore"
+    },
+    "education": {
+      "model": "education",
+      "via": "catigore"
+    },
+    "photoarchives": {
+      "collection": "photoarchives",
+      "via": "catigores"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

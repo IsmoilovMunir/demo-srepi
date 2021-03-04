@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "photoarchives",
+  "collectionName": "about_uses",
   "info": {
-    "name": "photoarchives",
+    "name": "about us",
     "description": ""
   },
   "options": {
@@ -13,32 +13,22 @@
   "attributes": {
     "title": {
       "type": "string",
-      "required": true,
-      "unique": true
+      "required": true
     },
-    "description": {
+    "discription": {
       "type": "richtext",
       "required": true
     },
-    "image": {
+    "imag": {
       "collection": "file",
       "via": "related",
       "allowedTypes": [
-        "images",
         "files",
+        "images",
         "videos"
       ],
       "plugin": "upload",
-      "required": true
-    },
-    "categories": {
-      "collection": "category",
-      "via": "photoarchive"
-    },
-    "catigores": {
-      "via": "photoarchives",
-      "collection": "catigore",
-      "dominant": true
+      "required": false
     }
   }
 }

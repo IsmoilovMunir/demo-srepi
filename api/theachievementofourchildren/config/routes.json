@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/theachievementofourchildren",
+      "handler": "theachievementofourchildren.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/theachievementofourchildren/count",
+      "handler": "theachievementofourchildren.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/theachievementofourchildren/:id",
+      "handler": "theachievementofourchildren.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/theachievementofourchildren",
+      "handler": "theachievementofourchildren.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/theachievementofourchildren/:id",
+      "handler": "theachievementofourchildren.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/theachievementofourchildren/:id",
+      "handler": "theachievementofourchildren.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

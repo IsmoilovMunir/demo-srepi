@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/danceschools",
+      "handler": "danceschool.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/danceschools/count",
+      "handler": "danceschool.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/danceschools/:id",
+      "handler": "danceschool.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/danceschools",
+      "handler": "danceschool.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/danceschools/:id",
+      "handler": "danceschool.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/danceschools/:id",
+      "handler": "danceschool.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

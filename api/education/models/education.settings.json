@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "photoarchives",
+  "collectionName": "educations",
   "info": {
-    "name": "photoarchives",
-    "description": ""
+    "name": "education"
   },
   "options": {
     "increments": true,
@@ -13,10 +12,9 @@
   "attributes": {
     "title": {
       "type": "string",
-      "required": true,
-      "unique": true
+      "required": true
     },
-    "description": {
+    "discription": {
       "type": "richtext",
       "required": true
     },
@@ -24,21 +22,16 @@
       "collection": "file",
       "via": "related",
       "allowedTypes": [
-        "images",
         "files",
+        "images",
         "videos"
       ],
       "plugin": "upload",
       "required": true
     },
-    "categories": {
-      "collection": "category",
-      "via": "photoarchive"
-    },
-    "catigores": {
-      "via": "photoarchives",
-      "collection": "catigore",
-      "dominant": true
+    "catigore": {
+      "via": "education",
+      "model": "catigore"
     }
   }
 }

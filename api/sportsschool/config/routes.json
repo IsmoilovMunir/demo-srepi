@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/sportsschools",
+      "handler": "sportsschool.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sportsschools/count",
+      "handler": "sportsschool.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sportsschools/:id",
+      "handler": "sportsschool.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/sportsschools",
+      "handler": "sportsschool.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/sportsschools/:id",
+      "handler": "sportsschool.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/sportsschools/:id",
+      "handler": "sportsschool.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

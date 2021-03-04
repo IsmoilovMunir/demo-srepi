@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/allaboutarmenias",
+      "handler": "allaboutarmenia.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/allaboutarmenias/count",
+      "handler": "allaboutarmenia.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/allaboutarmenias/:id",
+      "handler": "allaboutarmenia.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/allaboutarmenias",
+      "handler": "allaboutarmenia.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/allaboutarmenias/:id",
+      "handler": "allaboutarmenia.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/allaboutarmenias/:id",
+      "handler": "allaboutarmenia.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

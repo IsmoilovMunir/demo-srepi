@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "photoarchive_categories",
+  "collectionName": "sportsschools",
   "info": {
-    "name": "category",
-    "description": ""
+    "name": "sportsschool"
   },
   "options": {
     "increments": true,
@@ -13,19 +12,22 @@
   "attributes": {
     "title": {
       "type": "string",
-      "required": true,
-      "unique": true
+      "required": true
     },
-    "image": {
+    "discription": {
+      "type": "richtext",
+      "required": true
+    },
+    "imag": {
       "collection": "file",
       "via": "related",
       "allowedTypes": [
-        "files",
         "images",
+        "files",
         "videos"
       ],
       "plugin": "upload",
-      "required": true
+      "required": false
     }
   }
 }

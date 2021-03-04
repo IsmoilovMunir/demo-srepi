@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/ourmerits",
+      "handler": "ourmerit.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/ourmerits/count",
+      "handler": "ourmerit.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/ourmerits/:id",
+      "handler": "ourmerit.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/ourmerits",
+      "handler": "ourmerit.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/ourmerits/:id",
+      "handler": "ourmerit.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/ourmerits/:id",
+      "handler": "ourmerit.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
