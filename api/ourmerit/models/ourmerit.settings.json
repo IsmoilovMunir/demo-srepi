@@ -12,7 +12,7 @@
   },
   "attributes": {
     "image": {
-      "collection": "file",
+      "model": "file",
       "via": "related",
       "allowedTypes": [
         "files",
