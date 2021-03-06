@@ -31,14 +31,9 @@
       "plugin": "upload",
       "required": true
     },
-    "categories": {
-      "collection": "category",
-      "via": "photoarchive"
-    },
-    "catigores": {
+    "category": {
       "via": "photoarchives",
-      "collection": "catigore",
-      "dominant": true
+      "model": "category"
     }
   }
 }

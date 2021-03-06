@@ -26,9 +26,9 @@
       "plugin": "upload",
       "required": false
     },
-    "photoarchive": {
-      "via": "categories",
-      "model": "photoarchives"
+    "photoarchives": {
+      "collection": "photoarchives",
+      "via": "category"
     }
   }
 }

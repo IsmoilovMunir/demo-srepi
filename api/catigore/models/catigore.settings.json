@@ -19,10 +19,6 @@
       "model": "education",
       "via": "catigore"
     },
-    "photoarchives": {
-      "collection": "photoarchives",
-      "via": "catigores"
-    },
     "title": {
       "type": "string"
     }
