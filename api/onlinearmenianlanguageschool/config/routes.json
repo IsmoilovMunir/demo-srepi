@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/onlinearmenianlanguageschools",
+      "handler": "onlinearmenianlanguageschool.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/onlinearmenianlanguageschools/count",
+      "handler": "onlinearmenianlanguageschool.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/onlinearmenianlanguageschools/:id",
+      "handler": "onlinearmenianlanguageschool.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/onlinearmenianlanguageschools",
+      "handler": "onlinearmenianlanguageschool.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/onlinearmenianlanguageschools/:id",
+      "handler": "onlinearmenianlanguageschool.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/onlinearmenianlanguageschools/:id",
+      "handler": "onlinearmenianlanguageschool.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "videogalleries",
   "info": {
-    "name": "videogallery"
+    "name": "videogallery",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -13,20 +14,23 @@
     "title": {
       "type": "string"
     },
-    "discription": {
+    "description": {
       "type": "richtext",
       "required": true
     },
-    "image": {
-      "collection": "file",
-      "via": "related",
-      "allowedTypes": [
-        "files",
-        "images",
-        "videos"
-      ],
-      "plugin": "upload",
+    "videourl1": {
+      "type": "string",
+      "private": false,
       "required": true
+    },
+    "videourl2": {
+      "type": "string"
+    },
+    "videourl3": {
+      "type": "string"
+    },
+    "videourl4": {
+      "type": "string"
     }
   }
 }

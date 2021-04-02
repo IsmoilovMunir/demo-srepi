@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/sundayschools",
+      "handler": "sundayschool.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sundayschools/count",
+      "handler": "sundayschool.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sundayschools/:id",
+      "handler": "sundayschool.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/sundayschools",
+      "handler": "sundayschool.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/sundayschools/:id",
+      "handler": "sundayschool.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/sundayschools/:id",
+      "handler": "sundayschool.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

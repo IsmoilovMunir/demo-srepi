@@ -11,10 +11,6 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "danceschool": {
-      "model": "danceschool",
-      "via": "catigore"
-    },
     "education": {
       "model": "education",
       "via": "catigore"

@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "sportsschools",
   "info": {
-    "name": "sportsschool"
+    "name": "sportsschool",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -28,6 +29,18 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "vidourl1": {
+      "type": "string"
+    },
+    "vidourl2": {
+      "type": "string"
+    },
+    "vidourl3": {
+      "type": "string"
+    },
+    "vidourl4": {
+      "type": "string"
     }
   }
 }

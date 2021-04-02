@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "danceschools",
+  "collectionName": "sundayschools",
   "info": {
-    "name": "danceschool",
-    "description": ""
+    "name": "sundayschool"
   },
   "options": {
     "increments": true,
@@ -15,25 +14,24 @@
       "type": "string",
       "required": true
     },
-    "discription": {
-      "type": "richtext",
-      "required": true
+    "description": {
+      "type": "richtext"
     },
     "image": {
       "collection": "file",
       "via": "related",
       "allowedTypes": [
-        "files",
         "images",
+        "files",
         "videos"
       ],
       "plugin": "upload",
-      "required": true
+      "required": false
     },
     "videourl1": {
       "type": "string"
     },
-    "videourl2": {
+    "vidourl2": {
       "type": "string"
     },
     "videourl3": {

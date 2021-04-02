@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "danceschools",
+  "collectionName": "onlinearmenianlanguageschools",
   "info": {
-    "name": "danceschool",
-    "description": ""
+    "name": "onlinearmenianlanguageschool"
   },
   "options": {
     "increments": true,
@@ -12,10 +11,9 @@
   },
   "attributes": {
     "title": {
-      "type": "string",
-      "required": true
+      "type": "string"
     },
-    "discription": {
+    "description": {
       "type": "richtext",
       "required": true
     },
@@ -23,24 +21,12 @@
       "collection": "file",
       "via": "related",
       "allowedTypes": [
-        "files",
         "images",
+        "files",
         "videos"
       ],
       "plugin": "upload",
-      "required": true
-    },
-    "videourl1": {
-      "type": "string"
-    },
-    "videourl2": {
-      "type": "string"
-    },
-    "videourl3": {
-      "type": "string"
-    },
-    "videourl4": {
-      "type": "string"
+      "required": false
     }
   }
 }
