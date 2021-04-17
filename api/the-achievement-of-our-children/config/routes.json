@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/the-achievement-of-our-children",
+      "handler": "the-achievement-of-our-children.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/the-achievement-of-our-children/count",
+      "handler": "the-achievement-of-our-children.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/the-achievement-of-our-children/:id",
+      "handler": "the-achievement-of-our-children.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/the-achievement-of-our-children",
+      "handler": "the-achievement-of-our-children.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/the-achievement-of-our-children/:id",
+      "handler": "the-achievement-of-our-children.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/the-achievement-of-our-children/:id",
+      "handler": "the-achievement-of-our-children.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

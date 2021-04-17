@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "photoarchives",
+  "collectionName": "oursponsors",
   "info": {
-    "name": "photoarchives",
-    "description": ""
+    "name": "oursponsor"
   },
   "options": {
     "increments": true,
@@ -11,15 +10,6 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "title": {
-      "type": "string",
-      "required": true,
-      "unique": true
-    },
-    "description": {
-      "type": "richtext",
-      "required": true
-    },
     "image": {
       "collection": "file",
       "via": "related",
@@ -29,11 +19,10 @@
         "videos"
       ],
       "plugin": "upload",
-      "required": true
+      "required": false
     },
-    "category": {
-      "model": "category",
-      "via": "photoarchives"
+    "description": {
+      "type": "richtext"
     },
     "sorting": {
       "type": "biginteger"

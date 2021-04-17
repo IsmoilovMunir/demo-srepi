@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "sundayschools",
   "info": {
-    "name": "sundayschool"
+    "name": "sundayschool",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -39,6 +40,10 @@
     },
     "videourl4": {
       "type": "string"
+    },
+    "sorting": {
+      "type": "biginteger",
+      "required": true
     }
   }
 }

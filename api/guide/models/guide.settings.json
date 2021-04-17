@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "categories",
+  "collectionName": "guides",
   "info": {
-    "name": "category",
-    "description": ""
+    "name": "guide"
   },
   "options": {
     "increments": true,
@@ -11,12 +10,8 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "title": {
-      "type": "string",
-      "required": true
-    },
     "image": {
-      "model": "file",
+      "collection": "file",
       "via": "related",
       "allowedTypes": [
         "images",
@@ -26,12 +21,8 @@
       "plugin": "upload",
       "required": false
     },
-    "photoarchives": {
-      "via": "category",
-      "collection": "photoarchives"
-    },
-    "sorting": {
-      "type": "biginteger"
+    "description": {
+      "type": "richtext"
     }
   }
 }

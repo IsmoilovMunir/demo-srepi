@@ -29,6 +29,9 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "sorting": {
+      "type": "biginteger"
     }
   }
 }

@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "photoarchives",
+  "collectionName": "the_achievement_of_our_children",
   "info": {
-    "name": "photoarchives",
-    "description": ""
+    "name": "TheAchievementOfOurChildren"
   },
   "options": {
     "increments": true,
@@ -11,14 +10,27 @@
     "draftAndPublish": true
   },
   "attributes": {
+    "sorting": {
+      "type": "biginteger"
+    },
     "title": {
       "type": "string",
-      "required": true,
-      "unique": true
+      "required": true
     },
     "description": {
-      "type": "richtext",
-      "required": true
+      "type": "richtext"
+    },
+    "videourl1": {
+      "type": "string"
+    },
+    "videourl2": {
+      "type": "string"
+    },
+    "videourl3": {
+      "type": "string"
+    },
+    "videourl4": {
+      "type": "string"
     },
     "image": {
       "collection": "file",
@@ -29,14 +41,7 @@
         "videos"
       ],
       "plugin": "upload",
-      "required": true
-    },
-    "category": {
-      "model": "category",
-      "via": "photoarchives"
-    },
-    "sorting": {
-      "type": "biginteger"
+      "required": false
     }
   }
 }
