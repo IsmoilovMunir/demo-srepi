@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/history-of-armenias",
+      "handler": "history-of-armenia.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/history-of-armenias/count",
+      "handler": "history-of-armenia.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/history-of-armenias/:id",
+      "handler": "history-of-armenia.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/history-of-armenias",
+      "handler": "history-of-armenia.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/history-of-armenias/:id",
+      "handler": "history-of-armenia.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/history-of-armenias/:id",
+      "handler": "history-of-armenia.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "history_of_armenias",
+  "info": {
+    "name": "HistoryOfArmenia"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "description": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
