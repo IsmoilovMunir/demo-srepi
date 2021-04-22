@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "oursponsors",
   "info": {
-    "name": "oursponsor"
+    "name": "oursponsor",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -25,7 +26,9 @@
       "type": "richtext"
     },
     "sorting": {
-      "type": "biginteger"
+      "type": "biginteger",
+      "required": true,
+      "unique": true
     }
   }
 }

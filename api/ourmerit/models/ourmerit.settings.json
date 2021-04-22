@@ -27,6 +27,11 @@
     },
     "discription": {
       "type": "richtext"
+    },
+    "sorting": {
+      "type": "biginteger",
+      "required": true,
+      "unique": true
     }
   }
 }

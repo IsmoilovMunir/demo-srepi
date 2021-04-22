@@ -43,7 +43,9 @@
       "type": "string"
     },
     "sorting": {
-      "type": "biginteger"
+      "type": "biginteger",
+      "required": true,
+      "unique": true
     }
   }
 }

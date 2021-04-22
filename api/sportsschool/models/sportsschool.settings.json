@@ -41,6 +41,11 @@
     },
     "vidourl4": {
       "type": "string"
+    },
+    "date": {
+      "type": "date",
+      "private": true,
+      "required": true
     }
   }
 }

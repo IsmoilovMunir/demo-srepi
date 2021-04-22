@@ -35,8 +35,8 @@
       "model": "category",
       "via": "photoarchives"
     },
-    "sorting": {
-      "type": "biginteger"
+    "date": {
+      "type": "date"
     }
   }
 }

@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "onlinearmenianlanguageschools",
   "info": {
-    "name": "onlinearmenianlanguageschool"
+    "name": "onlinearmenianlanguageschool",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -27,6 +28,11 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "sorting": {
+      "type": "biginteger",
+      "required": true,
+      "unique": true
     }
   }
 }

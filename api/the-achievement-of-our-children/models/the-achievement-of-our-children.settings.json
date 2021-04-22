@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "the_achievement_of_our_children",
   "info": {
-    "name": "TheAchievementOfOurChildren"
+    "name": "TheAchievementOfOurChildren",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -11,7 +12,9 @@
   },
   "attributes": {
     "sorting": {
-      "type": "biginteger"
+      "type": "biginteger",
+      "required": true,
+      "unique": true
     },
     "title": {
       "type": "string",

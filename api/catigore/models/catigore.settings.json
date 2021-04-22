@@ -11,10 +11,6 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "education": {
-      "model": "education",
-      "via": "catigore"
-    },
     "title": {
       "type": "string"
     }
