@@ -42,10 +42,9 @@
     "videourl4": {
       "type": "string"
     },
-    "sorting": {
-      "required": true,
-      "type": "biginteger",
-      "unique": true
+    "date": {
+      "type": "date",
+      "required": true
     }
   }
 }

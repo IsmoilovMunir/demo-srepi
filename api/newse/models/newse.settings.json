@@ -30,10 +30,9 @@
       "plugin": "upload",
       "required": false
     },
-    "sorting": {
-      "type": "biginteger",
-      "required": true,
-      "unique": true
+    "date": {
+      "type": "date",
+      "required": true
     }
   }
 }

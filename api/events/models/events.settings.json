@@ -28,7 +28,7 @@
         "videos"
       ],
       "plugin": "upload",
-      "required": true
+      "required": false
     },
     "vidourl1": {
       "type": "string"
@@ -42,10 +42,9 @@
     "videourl4": {
       "type": "string"
     },
-    "sorting": {
-      "type": "biginteger",
-      "required": true,
-      "unique": true
+    "date": {
+      "type": "date",
+      "required": true
     }
   }
 }

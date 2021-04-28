@@ -44,7 +44,7 @@
     },
     "date": {
       "type": "date",
-      "private": true,
+      "private": false,
       "required": true
     }
   }

@@ -36,7 +36,8 @@
       "via": "photoarchives"
     },
     "date": {
-      "type": "date"
+      "type": "date",
+      "required": true
     }
   }
 }

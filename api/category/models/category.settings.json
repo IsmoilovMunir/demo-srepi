@@ -29,9 +29,6 @@
     "photoarchives": {
       "via": "category",
       "collection": "photoarchives"
-    },
-    "sorting": {
-      "type": "biginteger"
     }
   }
 }
