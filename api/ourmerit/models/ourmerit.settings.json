@@ -28,9 +28,10 @@
     "discription": {
       "type": "richtext"
     },
-    "date": {
-      "type": "date",
-      "required": true
+    "order": {
+      "type": "integer",
+      "unique": true,
+      "min": 1
     }
   }
 }

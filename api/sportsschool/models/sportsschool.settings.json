@@ -42,10 +42,10 @@
     "vidourl4": {
       "type": "string"
     },
-    "date": {
-      "type": "date",
-      "private": false,
-      "required": true
+    "order": {
+      "type": "integer",
+      "unique": true,
+      "min": 1
     }
   }
 }

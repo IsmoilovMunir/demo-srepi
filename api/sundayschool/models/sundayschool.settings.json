@@ -41,9 +41,10 @@
     "videourl4": {
       "type": "string"
     },
-    "dare": {
-      "type": "date",
-      "required": true
+    "order": {
+      "type": "integer",
+      "unique": true,
+      "min": 1
     }
   }
 }
